@@ -1,10 +1,23 @@
-# TurboRepo Fullstack Starter#
+# TurboRepo Fullstack Starter
 
 ![Static Badge](https://img.shields.io/badge/shadcn%2Fui-latest-blue?link=https%3A%2F%2Fgithub.com%2Fshadcn%2Fui)
 
 ## Project Overview ?
 
 Welcome to TurboRepo, your all-in-one monorepo solution for building fast fullstack projects! This project leverages the power of TurboRepo to seamlessly manage a monorepo structure, making it easy to develop, share code, and maintain consistency across different parts of your fullstack application.
+
+## Getting Started
+
+Follow these steps to get your fullstack project up and running:
+
+- `Clone this repository`: git clone https://github.com/your-username/your-repo.git
+- `Navigate to the project directory`: cd your-repo
+- `Install dependencies`: pnpm install
+- `Start the Express server`: turbo run server
+- `Start the Next.js app`: turbo run web
+- `Start both apps`: turbo run dev
+- Explore and customize your fullstack application!
+  Feel free to check the individual package directories for specific documentation and configuration details.
 
 ## What's inside?
 
