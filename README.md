@@ -1,34 +1,10 @@
-# Turborepo starter with shadcn/ui#
+# TurboRepo Fullstack Starter#
 
 ![Static Badge](https://img.shields.io/badge/shadcn%2Fui-latest-blue?link=https%3A%2F%2Fgithub.com%2Fshadcn%2Fui)
 
-This is Turborepo starter with shadcn/ui / Nextjs / Express pre-configured.
+## Project Overview ?
 
-> **Note**
-> This example uses `pnpm` as package manager.
-
-[npm version](https://github.com/dan5py/turborepo-shadcn-ui/tree/npm)
-
-## Using this example
-
-Clone the repository:
-
-Install dependencies:
-
-```sh
-cd turborepo-shadcn-ui
-pnpm install
-```
-
-### Add ui components
-
-Use the pre-made script:
-
-```sh
-pnpm ui:add <component-name>
-```
-
-> This works just like the add command in the `shadcn/ui` CLI.
+Welcome to TurboRepo, your all-in-one monorepo solution for building fast fullstack projects! This project leverages the power of TurboRepo to seamlessly manage a monorepo structure, making it easy to develop, share code, and maintain consistency across different parts of your fullstack application.
 
 ## What's inside?
 
@@ -44,6 +20,30 @@ This Turborepo includes the following packages/apps:
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+
+## Using this example
+
+> **Note**
+> This example uses `pnpm` as package manager.
+
+Clone the repository:
+
+Install dependencies:
+
+```sh
+cd Turborepo
+pnpm install
+```
+
+### Add ui components
+
+Use the pre-made script:
+
+```sh
+pnpm ui:add <component-name>
+```
+
+> This works just like the add command in the `shadcn/ui` CLI.
 
 ### Utilities
 
